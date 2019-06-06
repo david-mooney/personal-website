@@ -17,4 +17,4 @@ const absolute = css`
 export {
   absolute,
   flexCenter
-}
+};

@@ -1,18 +1,21 @@
-import { colors } from './colors';
+import { themeB } from './colors';
+import zIndices from './zIndices';
 import { absolute, flexCenter } from './layouts';
+import language from './language';
 
 const theme = {
+  // gradient
+  angle: 90,
+
   // colors
-  shadeLight: colors.athens,
-  shadeDark: colors.mariner,
-  accentLight: colors.tacao,
-  accentDark: colors.bluebell,
-  main: colors.pomegranate,
-  darkest: colors.black,
+  ...themeB,
+
+  // z indices
+  ...zIndices,
 
   // layouts
   absolute,
   flexCenter
-}
+};
 
-export { colors, theme };
+export { theme, language };

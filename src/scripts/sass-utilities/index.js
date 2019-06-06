@@ -1,3 +1,17 @@
+import styled from 'styled-components';
+
+const H1 = styled.h1`
+  >span {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: ${({ theme }) => theme.lightest};
+    &:first-of-type {
+      padding-right: 1rem;
+    }
+  }
+`;
+
 const rgba = (hex, alpha) => {
   const hexToRgb = () => {
     const regex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
@@ -15,10 +29,11 @@ const rgba = (hex, alpha) => {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
 
-const gradient = (angle = 0, primary, secondary) =>
-  `linear-gradient(${angle}deg, ${primary}, ${secondary})`;
+const gradient = ({ angle = 0, gradient = [] }) =>
+  `background: linear-gradient(${angle}deg, ${gradient[0]}, ${gradient[1]})`;
 
 export {
+  H1,
   rgba,
   gradient
 }

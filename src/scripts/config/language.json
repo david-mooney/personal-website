@@ -1,0 +1,14 @@
+{
+  "homepage": {
+    "items": [{
+      "id": 1,
+      "label": "About Me"
+    }, {
+      "id": 2,
+      "label": "My Work"
+    }, {
+      "id": 3,
+      "label": "My Blog"
+    }]
+  }
+}
