@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "config": ["./src/scripts/config/index.js"],
+      "config/*": ["./src/scripts/config/*"]
+    }
+  },
+  "typeAcquisition": {
+    "exclude": [
+        "config"
+    ]
+  },
+  "exclude": ["node_modules", "dist"]
+}
