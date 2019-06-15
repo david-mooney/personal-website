@@ -7,5 +7,12 @@
   },
   "rules": {
     "comma-dangle": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["config", "./src/scripts/config"]
+      ]
+    }
   }
 }

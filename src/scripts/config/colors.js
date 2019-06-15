@@ -40,7 +40,8 @@ const themeA = {
 const themeB = {
   lightest: colors.brilliant,
   darkest: colors.vanta,
-  gradient: [colors.froly, colors.salmon]
+  gradient: [colors.froly, colors.salmon],
+  danger: colors.pomegranate,
 };
 
 export { themeA, themeB };
