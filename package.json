@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/david-mooney/personal-website#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
     "gsap": "^2.1.3",
     "parcel-bundler": "^1.12.3",
     "prop-types": "^15.7.2",
